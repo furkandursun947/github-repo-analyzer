@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "GitHub Repo Analysator",
+    "description": "Analysieren Sie Ihre GitHub-Repositories und entdecken Sie verwendete Technologien",
+    "footer": {
+      "developer": "Entwickelt von",
+      "sourceCode": "Quellcode"
+    }
+  },
+  "home": {
+    "repoUrlLabel": "GitHub Repository URL",
+    "repoUrlPlaceholder": "https://github.com/username/repo",
+    "analyzeButton": "Analysieren",
+    "loading": "Wird geladen...",
+    "errors": {
+      "emptyUrl": "Bitte geben Sie eine GitHub Repository URL ein",
+      "invalidUrl": "Bitte geben Sie eine gültige GitHub Repository URL ein (z.B. https://github.com/username/repo)",
+      "generalError": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    }
+  },
+  "dashboard": {
+    "title": "GitHub Repository Analyse",
+    "newAnalysis": "Neue Analyse",
+    "loading": "Repository wird analysiert...",
+    "error": "Beim Abrufen der Repository-Daten ist ein Fehler aufgetreten. Bitte stellen Sie sicher, dass die URL korrekt ist.",
+    "repoInfo": {
+      "by": "von",
+      "stats": {
+        "stars": "Sterne",
+        "forks": "Forks",
+        "createdAt": "Erstellt am",
+        "updatedAt": "Zuletzt aktualisiert"
+      }
+    },
+    "languages": {
+      "title": "Sprachstatistiken",
+      "noData": "Keine Sprachstatistiken gefunden."
+    },
+    "technologies": {
+      "title": "Erkannte Technologien",
+      "noData": "Keine Technologien gefunden."
+    },
+    "dependencies": {
+      "title": "Paket-Abhängigkeiten",
+      "dependencies": "Abhängigkeiten",
+      "devDependencies": "Entwicklungsabhängigkeiten"
+    },
+    "contributors": {
+      "title": "Mitwirkende",
+      "commits": "Commits"
+    }
+  },
+  "techSchema": {
+    "title": "Technologie-Schema",
+    "backToDashboard": "Zurück zum Dashboard",
+    "loading": "Technologien werden analysiert...",
+    "error": "Beim Abrufen der Repository-Daten ist ein Fehler aufgetreten. Bitte stellen Sie sicher, dass die URL korrekt ist.",
+    "fetchError": "Beim Abrufen der Technologiedaten ist ein Fehler aufgetreten.",
+    "categories": "Technologiekategorien",
+    "diagram": "Technologie-Schema",
+    "dependencyRelations": "Abhängigkeitsbeziehungen",
+    "noTechnologies": "In diesem Repository wurden keine Technologien erkannt.",
+    "categoryNames": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Datenbank",
+      "devops": "DevOps",
+      "testing": "Tests",
+      "mobile": "Mobile",
+      "tools": "Werkzeuge",
+      "other": "Sonstiges"
+    }
+  },
+  "language": {
+    "tr": "Türkisch",
+    "en": "Englisch",
+    "de": "Deutsch",
+    "es": "Spanisch"
+  }
+} 

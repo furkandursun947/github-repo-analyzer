@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": "GitHub Repo Analiz Aracı",
+    "description": "GitHub repo'nuzu analiz edin ve kullanılan teknolojileri keşfedin",
+    "footer": {
+      "developer": "Geliştiren",
+      "sourceCode": "Kaynak Kodu"
+    }
+  },
+  "home": {
+    "repoUrlLabel": "GitHub Repo URL'si",
+    "repoUrlPlaceholder": "https://github.com/username/repo veya https://github.com/organization",
+    "analyzeButton": "Analiz Et",
+    "loading": "Yükleniyor...",
+    "errors": {
+      "emptyUrl": "Lütfen bir GitHub repo URL'si girin",
+      "invalidUrl": "Geçerli bir GitHub repo URL'si giriniz (ör: https://github.com/username/repo)",
+      "generalError": "Bir hata oluştu. Lütfen tekrar deneyin."
+    }
+  },
+  "dashboard": {
+    "title": "GitHub Repo Analizi",
+    "newAnalysis": "Yeni Analiz",
+    "loading": "Repo analiz ediliyor...",
+    "error": "Repo verileri getirilirken bir hata oluştu. Lütfen URL'nin doğru olduğundan emin olun.",
+    "repoInfo": {
+      "by": "tarafından",
+      "popularRepos": "Popüler Repolar",
+      "stats": {
+        "stars": "Yıldız",
+        "forks": "Fork",
+        "createdAt": "Oluşturulma Tarihi",
+        "updatedAt": "Son Güncelleme",
+        "publicRepos": "Açık Repolar",
+        "popularRepos": "En Popüler Repo"
+      }
+    },
+    "languages": {
+      "title": "Dil İstatistikleri",
+      "noData": "Dil istatistikleri bulunamadı."
+    },
+    "technologies": {
+      "title": "Tespit Edilen Teknolojiler",
+      "noData": "Teknoloji bulunamadı."
+    },
+    "dependencies": {
+      "title": "Paket Bağımlılıkları",
+      "dependencies": "Bağımlılıklar",
+      "devDependencies": "Geliştirme Bağımlılıkları"
+    },
+    "contributors": {
+      "title": "Katkıda Bulunanlar",
+      "commits": "commit"
+    }
+  },
+  "techSchema": {
+    "title": "Teknoloji Şeması",
+    "backToDashboard": "Panele Dön",
+    "loading": "Teknolojiler analiz ediliyor...",
+    "error": "Repo verileri getirilirken bir hata oluştu. Lütfen URL'nin doğru olduğundan emin olun.",
+    "fetchError": "Teknoloji verileri getirilirken bir hata oluştu.",
+    "categories": "Teknoloji Kategorileri",
+    "diagram": "Teknoloji Şeması",
+    "dependencyRelations": "Bağımlılık İlişkileri",
+    "noTechnologies": "Bu repoda herhangi bir teknoloji tespit edilmedi.",
+    "categoryNames": {
+      "frontend": "Önyüz",
+      "backend": "Arkayüz",
+      "database": "Veritabanı",
+      "devops": "DevOps",
+      "testing": "Test",
+      "mobile": "Mobil",
+      "tools": "Araçlar",
+      "other": "Diğer"
+    }
+  },
+  "language": {
+    "tr": "Türkçe",
+    "en": "İngilizce",
+    "de": "Almanca",
+    "es": "İspanyolca"
+  }
+} 

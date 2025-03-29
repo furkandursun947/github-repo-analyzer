@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": "GitHub Repo Analyzer",
+    "description": "Analyze your GitHub repositories and discover technologies used",
+    "footer": {
+      "developer": "Developed by",
+      "sourceCode": "Source Code"
+    }
+  },
+  "home": {
+    "repoUrlLabel": "GitHub Repository URL",
+    "repoUrlPlaceholder": "https://github.com/username/repo or https://github.com/organization",
+    "analyzeButton": "Analyze",
+    "loading": "Loading...",
+    "errors": {
+      "emptyUrl": "Please enter a GitHub repository URL",
+      "invalidUrl": "Please enter a valid GitHub repository URL (e.g. https://github.com/username/repo)",
+      "generalError": "An error occurred. Please try again."
+    }
+  },
+  "dashboard": {
+    "title": "GitHub Repository Analysis",
+    "newAnalysis": "New Analysis",
+    "loading": "Analyzing repository...",
+    "error": "An error occurred while fetching repository data. Please ensure the URL is correct.",
+    "repoInfo": {
+      "by": "by",
+      "popularRepos": "Popular Repositories",
+      "stats": {
+        "stars": "Stars",
+        "forks": "Forks",
+        "createdAt": "Created On",
+        "updatedAt": "Last Updated",
+        "publicRepos": "Public Repositories",
+        "popularRepos": "Most Popular Repo"
+      }
+    },
+    "languages": {
+      "title": "Language Statistics",
+      "noData": "No language statistics found."
+    },
+    "technologies": {
+      "title": "Detected Technologies",
+      "noData": "No technologies found."
+    },
+    "dependencies": {
+      "title": "Package Dependencies",
+      "dependencies": "Dependencies",
+      "devDependencies": "Development Dependencies"
+    },
+    "contributors": {
+      "title": "Contributors",
+      "commits": "commits"
+    }
+  },
+  "techSchema": {
+    "title": "Technology Schema",
+    "backToDashboard": "Back to Dashboard",
+    "loading": "Analyzing technologies...",
+    "error": "An error occurred while fetching repository data. Please ensure the URL is correct.",
+    "fetchError": "An error occurred while fetching technology data.",
+    "categories": "Technology Categories",
+    "diagram": "Technology Schema",
+    "dependencyRelations": "Dependency Relationships",
+    "noTechnologies": "No technologies were detected in this repository.",
+    "categoryNames": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "devops": "DevOps",
+      "testing": "Testing",
+      "mobile": "Mobile",
+      "tools": "Tools",
+      "other": "Other"
+    }
+  },
+  "language": {
+    "tr": "Turkish",
+    "en": "English",
+    "de": "German",
+    "es": "Spanish"
+  }
+} 
