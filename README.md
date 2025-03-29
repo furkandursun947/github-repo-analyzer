@@ -2,6 +2,8 @@
 
 This application is an analysis tool that provides detailed information about a GitHub repository (technologies used, languages, dependencies, etc.) by taking a GitHub repo URL.
 
+Check the site: https://github-repo-analyzer-furkandursun947.vercel.app/
+
 ## Features
 
 - GitHub repo analysis
