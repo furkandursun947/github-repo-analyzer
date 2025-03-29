@@ -1,16 +1,16 @@
-# GitHub Repo Analizörü
+# GitHub Repo Analyzer
 
-Bu uygulama, GitHub repo URL'si alarak repo hakkında detaylı bilgiler (kullanılan teknolojiler, diller, bağımlılıklar, vb.) sunan bir analiz aracıdır.
+This application is an analysis tool that provides detailed information about a GitHub repository (technologies used, languages, dependencies, etc.) by taking a GitHub repo URL.
 
-## Özellikler
+## Features
 
-- GitHub repo analizi
-- Kullanılan dillerin görsel grafiği
-- Tespit edilen teknolojilerin listesi
-- Paket bağımlılıklarının detaylı görünümü
-- Katkıda bulunanların listesi
+- GitHub repo analysis
+- Visual graph of languages used
+- List of detected technologies
+- Detailed view of package dependencies
+- List of contributors
 
-## Teknolojik Altyapı
+## Technology Stack
 
 ### Frontend
 
@@ -24,53 +24,54 @@ Bu uygulama, GitHub repo URL'si alarak repo hakkında detaylı bilgiler (kullan�
 
 - Node.js + Express
 - TypeScript
-- GitHub API Entegrasyonu
+- GitHub API Integration
 
-## Kurulum
+## Installation
 
-### Ön Gereksinimler
+### Prerequisites
 
 - Node.js (v14+)
-- npm veya yarn
+- npm or yarn
 
-### Backend Kurulumu
+### Backend Installation
 
 ```bash
-# Backend klasörüne git
+# Go to Backend directory
 cd github-analyzer/backend
 
-# Bağımlılıkları yükle
+# Install dependencies
 npm install
 
-# .env dosyasını oluştur (opsiyonel ama tavsiye edilir)
+# Create .env file (optional but recommended)
 cp .env.example .env
-# .env dosyasını düzenleyerek GitHub token ekleyebilirsiniz
+# You can add a GitHub token by editing the .env file
 
-# Sunucuyu başlat
+# Start the server
 npm run dev
 ```
 
-### Frontend Kurulumu
+### Frontend Installation
 
 ```bash
-# Frontend klasörüne git
+# Go to Frontend directory
 cd github-analyzer/frontend
 
-# Bağımlılıkları yükle
+# Install dependencies
 npm install
 
-# Geliştirme sunucusunu başlat
+# Start the development server
 npm run dev
 ```
 
-## Kullanım
+## Usage
 
-1. Frontend uygulamasını açın (varsayılan olarak http://localhost:5173/)
-2. Analiz etmek istediğiniz GitHub repo URL'sini girin (örn: https://github.com/username/repo)
-3. "Analiz Et" düğmesine tıklayın
-4. Repo hakkında detaylı analizleri görüntüleyin
+1. Open the frontend application (default: http://localhost:5173/)
+2. Enter the GitHub repo URL you want to analyze (e.g., https://github.com/username/repo)
+3. Click the "Analyze" button
+4. View detailed analysis about the repo
 
-## Lisans
+## License
 
 MIT
+
 # github-repo-analyzer
