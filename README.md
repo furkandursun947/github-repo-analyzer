@@ -28,6 +28,9 @@ Check the site: https://github-repo-analyzer-furkandursun.vercel.app/
 - TypeScript
 - GitHub API Integration
 
+### Deployment
+- Vercel
+
 ## Installation
 
 ### Prerequisites
